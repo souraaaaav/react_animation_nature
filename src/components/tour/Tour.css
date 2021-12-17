@@ -1,0 +1,142 @@
+/* //home-slider */
+
+#home-slider {
+    background: url(/src/assets/images/slider-bg.png) 0 100% repeat-x;
+    position: relative;
+}
+
+#home-slider .main-slider {
+    position: relative;
+    height: 450px;
+}
+
+#home-slider .slide-text {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 450px;
+}
+
+#home-slider .slider-hill {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#home-slider .slider-house {
+    position: absolute;
+    right: 110px;
+    bottom: -30px;
+}
+
+#home-slider .slider-sun {
+    position: absolute;
+    right: 365px;
+    bottom: 100px;
+}
+
+#home-slider .slider-birds1 {
+    position: absolute;
+    right: 470px;
+    bottom: 75px;
+}
+
+#home-slider .slider-birds2 {
+    position: absolute;
+    right: 40px;
+    bottom: 150px;
+}
+
+#home-slider h1 {
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+#home-slider .btn-common {
+    margin-top: 20px;
+}
+
+#home-slider .preloader {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: -30px;
+    right: 0;
+    background: #fafafa;
+    text-align: center;
+}
+
+#home-slider .preloader>i {
+    font-size: 48px;
+    height: 48px;
+    line-height: 48px;
+    color: #00aeef;
+    position: absolute;
+    left: 50%;
+    margin-left: -24px;
+    top: 50%;
+    margin-top: -24px;
+}
+
+
+/* //container */
+
+.container {
+    position: relative;
+}
+
+
+/* //row */
+
+.row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+
+/* //slide-text */
+
+.animate-in .slide-text {
+    -webkit-animation: fadeInLeftBig 700ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both;
+    animation: fadeInLeftBig 700ms cubic-bezier(0.19, 1, 0.22, 1) 200ms both;
+}
+
+
+/* //slider-hill */
+
+.animate-in .slider-hill {
+    -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
+    animation: bounceInDown 1000ms ease-in-out 200ms both;
+}
+
+
+/* //slider-house */
+
+.animate-in .slider-house {
+    -webkit-animation: bounceInDown 500ms ease-in-out 800ms both;
+    animation: bounceInDown 500ms ease-in-out 800ms both;
+}
+
+
+/* //slider-sun */
+
+.animate-in .slider-sun {
+    -webkit-animation: fadeIn 500ms ease-in-out 1200ms both;
+    animation: fadeIn 500ms ease-in-out 1200ms both;
+}
+
+
+/* //slider-birds1 */
+
+.animate-in .slider-birds1 {
+    -webkit-animation: fadeInLeft 500ms ease-in-out 1200ms both;
+    animation: fadeInLeft 500ms ease-in-out 1200ms both;
+}
+
+
+/* //slider-birds2 */
+
+.animate-in .slider-birds2 {
+    -webkit-animation: fadeInRight 500ms ease-in-out 1200ms both;
+    animation: fadeInRight 500ms ease-in-out 1200ms both;
+}
